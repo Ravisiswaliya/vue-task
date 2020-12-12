@@ -4,7 +4,7 @@
       <!-- Links -->
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link" to="/">Currency</router-link>
+          <!-- <router-link class="nav-link" to="/">Currency</router-link> -->
         </li>
       </ul>
     </nav>
