@@ -37,6 +37,7 @@ export default {
   computed: mapGetters(["allCurrency"]),
   created() {
     this.getCurrency();
+    this.interval = setInterval(() => this.getCurrency(), 30000);
   },
   directives: {
     rand: {

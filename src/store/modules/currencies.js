@@ -9,7 +9,6 @@ const getters = {
 const actions = {
   async getCurrency({ commit }) {
     const response = await axios.get("https://api.coinranking.com/v1/public/coins/?limit=100");
-
     commit("setCurrency", response.data["data"]["coins"]);
   }
 };
